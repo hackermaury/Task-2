@@ -1,0 +1,54 @@
+==================================================
+   CYBER SECURITY INTERNSHIP – TASK 2 REPORT
+   Phishing Email Analysis & Interview Q&A
+==================================================
+
+1. PHISHING EMAIL SAMPLE
+--------------------------------------------------
+From: support@netf1ix-billing-update.com
+To: user@gmail.com
+Subject: URGENT: Your Netflix Membership is On Hold!
+
+Body:
+Dear Valued Customer,
+We were unable to process your latest monthly payment. As a result, your Netflix membership has been temporarily placed on hold.
+Please update your billing information immediately within the next 24 hours to avoid permanent service cancellation.
+[ Click Here to Update Payment Details ] -> (https://malicious-fake-netflix-login.example/update)
+Thank you,
+Netflix Billing Support Team
+
+
+2. VULNERABILITY NOTES (SHORT & STUDENT TYPE)
+--------------------------------------------------
+* Fake Sender Domain (Typo squatting): Letter 'l' in Netflix is replaced with number '1' (netf1ix).
+* Generic Greeting: Uses "Dear Valued Customer" instead of the actual name.
+* Urgency & Fear Tactics: Threatening words like "URGENT" and "within 24 hours" to create panic.
+* Suspicious Link: Redirects to an unverified, external malicious site instead of the official domain.
+* Generic Signature: No corporate contact details or verified employee name.
+
+
+3. INTERVIEW Q&A (SHORT & STUDENT TYPE)
+--------------------------------------------------
+Q1. What is phishing?
+- Fake messages mimicking trusted entities to steal sensitive info like passwords and bank details.
+
+Q2. How to identify a phishing email?
+- Check for fake domains, urgent/threatening language, generic greetings, and suspicious links.
+
+Q3. What is email spoofing?
+- Forging the sender header to make an email look like it came from a trusted, legitimate source.
+
+Q4. Why are phishing emails dangerous?
+- Cause credential theft, financial loss, malware infections, and company data breaches.
+
+Q5. How can you verify the sender’s authenticity?
+- Check email headers using authentication protocols: SPF, DKIM, and DMARC.
+
+Q6. What tools can analyze email headers?
+- Google Admin Toolbox Message header, MX Toolbox, and Phishing Tool.
+
+Q7. What actions should be taken on suspected phishing emails?
+- Do not click links, avoid downloading attachments, report to IT security, and delete the email.
+
+Q8. How do attackers use social engineering in phishing?
+- Exploit human psychology (fear, panic, urgency) to trick victims into giving away data.
